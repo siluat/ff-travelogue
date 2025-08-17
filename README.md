@@ -1,3 +1,9 @@
+# ff-travelogue
+
+[파이널판타지14](https://www.ff14.co.kr/)의 게임 경험을 기록합니다.
+
+---
+
 # Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
