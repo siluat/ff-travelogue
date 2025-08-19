@@ -1,0 +1,24 @@
+{
+  "name": "ff-travelogue",
+  "description": "파이널판타지14 견문록",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "siluat <siluat@gmail.com>",
+  "homepage": "https://ff-travelogue.vercep.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siluat/ff-travelogue.git"
+  },
+  "scripts": {
+    "build": "cd packages/quartz && pnpm quartz build -d ../travelogue/content",
+    "serve": "cd packages/quartz && pnpm quartz build --serve -d ../travelogue/content"
+  },
+  "keywords": [
+    "final fantasy"
+  ],
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=22.11.0"
+  }
+}

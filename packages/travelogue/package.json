@@ -1,0 +1,8 @@
+{
+  "name": "travelogue",
+  "description": "파이널판타지 견문록 콘텐츠",
+  "private": true,
+  "version": "1.0.0",
+  "author": "siluat <siluat@gmail.com>",
+  "license": "UNLICENSED"
+}
