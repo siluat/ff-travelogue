@@ -40,7 +40,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    Component.CustomGraph({
+      localGraph: {
+        opacityScale: 5,
+      },
+      globalGraph: {
+        opacityScale: 5,
+      },
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
